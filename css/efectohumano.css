@@ -325,7 +325,81 @@ footer hr{
 	border-top: 1px solid #fff;
 }
 
-/*		Global		*/
-html{
-	/*scroll-behavior: smooth; */
+/* Responsive design */
+
+@media (min-width: 300px) {
+	#Home img{
+		max-height: 150px;
+	}
+	
+	#Home .enlace{
+		max-width: 11%;
+		font-size: 2em;
+	}
+	
+	#Mision .mision-texto{
+		margin-top: -430px;
+		margin-left: -50px;
+	}
+	
+	#Mision .mision-texto h2{
+	}
+	
+	#Mision .mision-texto p{
+		font-size:1.2em;
+	}
+}
+
+@media (min-width: 450px){
+	#Mision .mision-texto{
+		margin-top: -420px;
+		margin-left: 5px;
+	}
+}
+
+@media (min-width: 556px) {
+	#Home img{
+		max-height: 200px;
+	}
+	
+	#Home .enlace{
+		max-width: 10%;
+		font-size: 2em;
+	}
+	
+	#Mision .mision-texto{
+		margin-top: -420px;
+		margin-left: 0px;
+	}
+	
+	#Mision .mision-texto h2{
+	}
+	
+	#Mision .mision-texto p{
+		font-size:1.1em;
+	}
+}
+
+
+
+@media (min-width: 992px) {
+	#Home img{
+		max-height: 300px;
+	}
+	
+	#Home .enlace{
+		max-width: 8%;
+		font-size: 3em;
+	}
+	
+	#Mision .mision-texto{
+		margin-top: -350px;
+	}
+	
+	#Mision .mision-texto h2{
+	}
+	
+	#Mision .mision-texto p{
+		font-size:1.2em;
+	}
 }

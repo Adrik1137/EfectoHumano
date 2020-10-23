@@ -345,15 +345,16 @@ footer hr{
 	}
 	
 	#Mision .mision-texto{
-		margin-top: -430px;
-		margin-left: -50px;
+		margin-top: -400px;
+		margin-left: 10px;
 	}
 	
 	#Mision .mision-texto h2{
+		font-size: 2em;
 	}
 	
 	#Mision .mision-texto p{
-		font-size:1.2em;
+		font-size:1em;
 	}
 	
 	/*#legal, #contable, #humano{
@@ -368,12 +369,9 @@ footer hr{
 	}
 	*/
 	
-	#productividad{
-		
-	}
-	
-	#seguridad{
-		
+	#Servicios .btn-modal{
+		margin-left: -192px;
+	margin-top: 30px;
 	}
 }
 
@@ -381,6 +379,14 @@ footer hr{
 	#Mision .mision-texto{
 		margin-top: -420px;
 		margin-left: 5px;
+	}
+	
+	#Mision .mision-texto h2{
+		font-size: 2.5em;
+	}
+	
+	#Mision .mision-texto p{
+		font-size:1.3em;
 	}
 	
 	/*#legal, #contable, #humano{
@@ -423,14 +429,15 @@ footer hr{
 	
 	#Mision .mision-texto{
 		margin-top: -420px;
-		margin-left: 0px;
+		margin-left: 20px;
 	}
 	
 	#Mision .mision-texto h2{
+		font-size: 2.8em;
 	}
 	
 	#Mision .mision-texto p{
-		font-size:1.1em;
+		font-size:1.4em;
 	}
 	
 	/*#legal, #contable, #humano{
@@ -462,13 +469,50 @@ footer hr{
 }
 
 @media (min-width: 600px) {
+	#Mision .mision-texto{
+		margin-top: -430px;
+		margin-left: 55px;
+	}
+	
+	#Mision .mision-texto h2{
+		font-size: 2.8em;
+	}
+	
+	#Mision .mision-texto p{
+		font-size: 1.3em;
+	}
+	
 	#Servicios .btn-modal{
 		margin-left: -465px;
 		margin-top: 85px;
 	}
 }
 
+@media (min-width: 700px) {
+	#Mision .mision-texto{
+		margin-top: -390px;
+		margin-left: 120px;
+	}
+	
+	#Mision .mision-texto p{
+		font-size: 1.3em;
+	}
+}
+
 @media (min-width: 770px) {
+	#Mision .mision-texto{
+		margin-top: -410px;
+		margin-left: 10px;
+	}
+	
+	#Mision .mision-texto h2{
+		font-size: 2.5em;
+	}
+	
+	#Mision .mision-texto p{
+		font-size: 1.1em;
+	}
+	
 	#productividad{
 		margin-left: 100px;
 	}
@@ -495,14 +539,15 @@ footer hr{
 	}
 	
 	#Mision .mision-texto{
-		margin-top: -350px;
+		margin-top: -380px;
 	}
 	
 	#Mision .mision-texto h2{
+		font-size: 3em;
 	}
 	
 	#Mision .mision-texto p{
-		font-size:1.2em;
+		font-size:1.3em;
 	}
 	
 	/*#legal, #contable, #humano{
@@ -535,6 +580,18 @@ footer hr{
 }
 
 @media (min-width: 1200px) {
+	#Mision .mision-texto{
+		margin-top: -380px;
+	}
+	
+	#Mision .mision-texto h2{
+		font-size: 3.2em;
+	}
+	
+	#Mision .mision-texto p{
+		font-size:1.4em;
+	}
+	
 	#productividad{
 		margin-left: 180px;
 	}

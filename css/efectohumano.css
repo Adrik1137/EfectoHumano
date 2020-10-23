@@ -177,10 +177,6 @@ body {
 
 .btn-modal p:hover{
 	color: rgba(0,47,108, 0.6);
-	/*
-	font-size: 60px;
-	margin-bottom: 100px;
-	*/
 }
 
 .btn-modal .fa-stack-1x{
@@ -231,9 +227,6 @@ body {
 }
 
 #legal, #contable, #humano{
-	/*max-width: 330px;
-	border-radius: 50px;
-	min-height:220px; */
 	margin-bottom: 30px;
 }
 
@@ -247,35 +240,11 @@ body {
 	padding-top: 5px;
 }
 
-#legal{
-	/*background: url("../images/legal.jpg");
-	background-size: cover;*/
-}
-
-
-
-#contable{
-	/*background: url("../images/contable.jpg") center center;
-	background-size: cover; */
-}
-
-#humano{
-	/*background: url("../images/humano.jpg") center center;
-	background-size: cover;*/
-}
-
 #productividad, #seguridad{
-	/*background-size: cover;
-	max-width: 330px;
-	border-radius: 50px;
-	min-height:220px;
-	margin-bottom: 20px; */
 	margin-bottom: 30px;
 }
 
 #productividad{
-	/*background: url("../images/productividad.jpg") center center;
-	background-size: cover; */
 	margin-left: 180px;
 }
 
@@ -289,10 +258,6 @@ body {
 	padding-top: 5px;
 }
 
-#seguridad{
-	/*background: url("../images/seguridad.jpg") center center;
-	background-size: cover; */
-}
 
 
 

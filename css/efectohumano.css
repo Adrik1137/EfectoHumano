@@ -336,11 +336,11 @@ footer hr{
 
 @media (min-width: 300px) {
 	#Home img{
-		max-height: 150px;
+		max-height: 130px;
 	}
 	
 	#Home .enlace{
-		max-width: 11%;
+		max-width: 14%;
 		font-size: 2em;
 	}
 	
@@ -357,25 +357,25 @@ footer hr{
 		font-size:1em;
 	}
 	
-	/*#legal, #contable, #humano{
-	max-width: 330px;
-	min-height:220px;
+	#productividad{
+		margin-left: 0px;
 	}
 	
-	#productividad, #seguridad{
-	max-width: 300px;
-	border-radius: 50px;
-	min-height:200px;
+	#seguridad{
+		margin-right: 0px;
 	}
-	*/
 	
 	#Servicios .btn-modal{
-		margin-left: -192px;
-	margin-top: 30px;
+		margin-left: -230px;
+		margin-top: 43px;
 	}
 }
 
 @media (min-width: 450px){
+	#Home img{
+		max-height: 150px;
+	}
+	
 	#Mision .mision-texto{
 		margin-top: -420px;
 		margin-left: 5px;
@@ -389,20 +389,6 @@ footer hr{
 		font-size:1.3em;
 	}
 	
-	/*#legal, #contable, #humano{
-	max-width: 300px;
-	min-height:200px;
-	margin-bottom: 20px;
-	margin-left: 85px;
-	}
-	
-	#productividad, #seguridad{
-	max-width: 300px;
-	border-radius: 50px;
-	min-height:200px;
-	}
-	
-	*/
 	#productividad{
 		margin-left: 0px;
 	}
@@ -440,20 +426,6 @@ footer hr{
 		font-size:1.4em;
 	}
 	
-	/*#legal, #contable, #humano{
-	max-width: 330px;
-	min-height:220px;
-	margin-bottom: 20px;
-	margin-left: 85px;
-	}
-	
-	#productividad, #seguridad{
-	max-width: 300px;
-	border-radius: 50px;
-	min-height:200px;
-	}
-	
-	*/
 	#productividad{
 		margin-left: 0px;
 	}

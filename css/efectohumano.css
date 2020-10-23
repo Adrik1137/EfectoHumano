@@ -189,31 +189,37 @@ body {
 
 /*	Servicios */
 
-.servicios{
+#Servicios{
+	padding: 30px;
 	background-color: rgba(125,125,125,0.2);
 }
 
-#Servicios{
-	padding: 30px;
+#Servicios h2{
+	text-align:center;
 }
 
 #Servicios .row{
-	margin-bottom: 50px;
 	text-align:center;
 }
 
 #Servicios .btn-modal{
+	position: absolute;
+	margin-left: -305px;
+	margin-top: 50px;
+	background-color: rgba(0, 47, 108, 0.5);
+	border-radius: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-right: 55px;
 }
 
 #Servicios img{
 	max-width: 100%;
 	border-radius: 50px;
-	margin-bottom: -40px
 }
 
 #Servicios .col-md-6 .btn-efecto{
 	margin-left: 95px;
-	position: relative;
 }
 
 #Servicios .col-md-6 p{
@@ -225,10 +231,10 @@ body {
 }
 
 #legal, #contable, #humano{
-	background-size: cover;
-	max-width: 30%;
+	/*max-width: 330px;
 	border-radius: 50px;
-	min-height:220px;
+	min-height:220px; */
+	margin-bottom: 30px;
 }
 
 .btn-legal, .btn-contable, .btn-humano, .btn-productividad, .btn-seguridad{
@@ -242,32 +248,34 @@ body {
 }
 
 #legal{
-	background: url("../images/legal.jpg") center center;
-	background-size: cover;
+	/*background: url("../images/legal.jpg");
+	background-size: cover;*/
 }
 
 
 
 #contable{
-	background: url("../images/contable.jpg") center center;
-	background-size: cover;
+	/*background: url("../images/contable.jpg") center center;
+	background-size: cover; */
 }
 
 #humano{
-	background: url("../images/humano.jpg") center center;
-	background-size: cover;
+	/*background: url("../images/humano.jpg") center center;
+	background-size: cover;*/
 }
 
 #productividad, #seguridad{
-	background-size: cover;
-	max-width: 30%;
+	/*background-size: cover;
+	max-width: 330px;
 	border-radius: 50px;
 	min-height:220px;
+	margin-bottom: 20px; */
+	margin-bottom: 30px;
 }
 
 #productividad{
-	background: url("../images/productividad.jpg") center center;
-	background-size: cover;
+	/*background: url("../images/productividad.jpg") center center;
+	background-size: cover; */
 	margin-left: 180px;
 }
 
@@ -282,9 +290,8 @@ body {
 }
 
 #seguridad{
-	background: url("../images/seguridad.jpg") center center;
-	background-size: cover;
-	margin-right: 180px;
+	/*background: url("../images/seguridad.jpg") center center;
+	background-size: cover; */
 }
 
 
@@ -348,6 +355,26 @@ footer hr{
 	#Mision .mision-texto p{
 		font-size:1.2em;
 	}
+	
+	/*#legal, #contable, #humano{
+	max-width: 330px;
+	min-height:220px;
+	}
+	
+	#productividad, #seguridad{
+	max-width: 300px;
+	border-radius: 50px;
+	min-height:200px;
+	}
+	*/
+	
+	#productividad{
+		
+	}
+	
+	#seguridad{
+		
+	}
 }
 
 @media (min-width: 450px){
@@ -355,6 +382,33 @@ footer hr{
 		margin-top: -420px;
 		margin-left: 5px;
 	}
+	
+	/*#legal, #contable, #humano{
+	max-width: 300px;
+	min-height:200px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	}
+	
+	#productividad, #seguridad{
+	max-width: 300px;
+	border-radius: 50px;
+	min-height:200px;
+	}
+	
+	*/
+	#productividad{
+		margin-left: 0px;
+	}
+	
+	#seguridad{
+		margin-right: 0px;
+	}
+	
+	#Servicios .btn-modal{
+	margin-left: -385px;
+	margin-top: 70px;
+}
 }
 
 @media (min-width: 556px) {
@@ -378,8 +432,56 @@ footer hr{
 	#Mision .mision-texto p{
 		font-size:1.1em;
 	}
+	
+	/*#legal, #contable, #humano{
+	max-width: 330px;
+	min-height:220px;
+	margin-bottom: 20px;
+	margin-left: 85px;
+	}
+	
+	#productividad, #seguridad{
+	max-width: 300px;
+	border-radius: 50px;
+	min-height:200px;
+	}
+	
+	*/
+	#productividad{
+		margin-left: 0px;
+	}
+	
+	#seguridad{
+		margin-right: 0px;
+	}
+	
+	#Servicios .btn-modal{
+		margin-left: -420px;
+		margin-top: 70px;
+	}
 }
 
+@media (min-width: 600px) {
+	#Servicios .btn-modal{
+		margin-left: -465px;
+		margin-top: 85px;
+	}
+}
+
+@media (min-width: 770px) {
+	#productividad{
+		margin-left: 100px;
+	}
+	
+	#seguridad{
+		margin-right: 0px;
+	}
+	
+	#Servicios .btn-modal{
+		margin-left: -175px;
+		margin-top: 25px;
+	}
+}
 
 
 @media (min-width: 992px) {
@@ -402,4 +504,53 @@ footer hr{
 	#Mision .mision-texto p{
 		font-size:1.2em;
 	}
+	
+	/*#legal, #contable, #humano{
+	max-width: 330px;
+	min-height:220px;
+	margin-left: 15px;
+	margin-right: 10px;
+	}
+	
+	#productividad, #seguridad{
+	max-width: 300px;
+	border-radius: 50px;
+	min-height:200px;
+	}
+	
+	*/
+	
+	#productividad{
+		margin-left: 140px;
+	}
+	
+	#seguridad{
+		margin-right: 140px;
+	}
+	
+	#Servicios .btn-modal{
+		margin-left: -240px;
+		margin-top: 40px;
+}
+}
+
+@media (min-width: 1200px) {
+	#productividad{
+		margin-left: 180px;
+	}
+	
+	#seguridad{
+		margin-right: 180px;
+	}
+	
+	#Servicios .btn-modal{
+	position: absolute;
+	margin-left: -305px;
+	margin-top: 50px;
+	background-color: rgba(0, 47, 108, 0.5);
+	border-radius: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-right: 55px;
+}
 }

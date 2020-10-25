@@ -66,6 +66,16 @@ body {
 }
 
 /*	Misión-Visión	*/
+.mision::before, .vision::before{
+	content: "";
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(255,255,255, 0.5);
+}
+
 #Mision .row{
 	max-width: 100.9%;
 }
@@ -171,12 +181,12 @@ body {
 	padding: 25px;
 	font-size: 50px;
 	margin: 0;
-	color: rgba(0,47,108, 1);
+	color: rgba(80,80,80, 1);
 	margin-bottom: 80px;
 }
 
 .btn-modal p:hover{
-	color: rgba(0,47,108, 0.6);
+	color: rgba(80,80,80, 0.6);
 }
 
 .btn-modal .fa-stack-1x{
@@ -199,14 +209,10 @@ body {
 }
 
 #Servicios .btn-modal{
-	position: absolute;
-	margin-left: -305px;
-	margin-top: 50px;
 	background-color: rgba(0, 47, 108, 0.5);
 	border-radius: 30px;
 	padding-bottom: 30px;
 	padding-top: 30px;
-	margin-right: 55px;
 }
 
 #Servicios img{
@@ -230,15 +236,6 @@ body {
 	margin-bottom: 30px;
 }
 
-.btn-legal, .btn-contable, .btn-humano, .btn-productividad, .btn-seguridad{
-	max-width: 80%;
-	margin-left: 30px;
-	margin-top: 60px;
-	background-color: rgba(0, 47, 108, 0.5);
-	border-radius: 30px;
-	padding-bottom: 50px;
-	padding-top: 5px;
-}
 
 #productividad, #seguridad{
 	margin-bottom: 30px;
@@ -257,9 +254,6 @@ body {
 	padding-bottom: 50px;
 	padding-top: 5px;
 }
-
-
-
 
 .btn-efecto{
 	background-color: rgba(255, 255, 255, .7);
@@ -330,10 +324,6 @@ footer hr{
 		margin-right: 0px;
 	}
 	
-	#Servicios .btn-modal{
-		margin-left: -230px;
-		margin-top: 45px;
-	}
 }
 
 @media (min-width: 450px){
@@ -362,10 +352,7 @@ footer hr{
 		margin-right: 0px;
 	}
 	
-	#Servicios .btn-modal{
-	margin-left: -385px;
-	margin-top: 70px;
-}
+	
 }
 
 @media (min-width: 556px) {
@@ -399,10 +386,6 @@ footer hr{
 		margin-right: 0px;
 	}
 	
-	#Servicios .btn-modal{
-		margin-left: -420px;
-		margin-top: 70px;
-	}
 }
 
 @media (min-width: 600px) {
@@ -419,10 +402,6 @@ footer hr{
 		font-size: 1.3em;
 	}
 	
-	#Servicios .btn-modal{
-		margin-left: -465px;
-		margin-top: 85px;
-	}
 }
 
 @media (min-width: 700px) {
@@ -458,10 +437,6 @@ footer hr{
 		margin-right: 0px;
 	}
 	
-	#Servicios .btn-modal{
-		margin-left: -175px;
-		margin-top: 25px;
-	}
 }
 
 
@@ -495,10 +470,6 @@ footer hr{
 		margin-right: 140px;
 	}
 	
-	#Servicios .btn-modal{
-		margin-left: -240px;
-		margin-top: 40px;
-}
 }
 
 @media (min-width: 1200px) {
@@ -522,14 +493,5 @@ footer hr{
 		margin-right: 180px;
 	}
 	
-	#Servicios .btn-modal{
-	position: absolute;
-	margin-left: -305px;
-	margin-top: 50px;
-	background-color: rgba(0, 47, 108, 0.5);
-	border-radius: 30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	margin-right: 55px;
 }
 }
